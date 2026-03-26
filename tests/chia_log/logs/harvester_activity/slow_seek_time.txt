@@ -1,1 +1,1 @@
-10:40:03.331 harvester chia.harvester.harvester: INFO     0 plots were eligible for farming e25et6cb36... Found 0 proofs. Time: 28.12348 s. Total 43 plots
+2026-03-26T21:40:05.331 2.6.0 harvester chia.harvester.harvester: INFO     challenge_hash: 6443c83e4f ...0 plots were eligible for farming challengeFound 0 V1 proofs and 0 V2 qualities. Time: 28.12348 s. Total 43 plots

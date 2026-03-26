@@ -13,7 +13,7 @@ class TestHarvesterActivityHandler(unittest.TestCase):
         self.example_logs_path = Path(__file__).resolve().parents[1] / "logs/harvester_activity"
 
     def testNominal(self):
-        with open(self.example_logs_path / "nominal.txt", encoding="UTF-8") as f:
+        with open(self.example_logs_path / "nominal_new_log_format.txt", encoding="UTF-8") as f:
             logs = f.readlines()
 
         for log in logs:

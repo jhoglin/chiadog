@@ -28,7 +28,7 @@ class TestSignagePointStats(unittest.TestCase):
 
     def testSkippedSignagePoints(self):
         self.consumeLogFile("skipped.txt")
-        self.assertEqual("Skipped SPs ⚠️: 24 (32.00%)", self.stat_accumulator.get_summary())
+        self.assertEqual("Skipped SPs ⚠️: 23 (30.67%)", self.stat_accumulator.get_summary())
         self.stat_accumulator.reset()
         self.assertEqual("Skipped SPs ⚠️: Unknown", self.stat_accumulator.get_summary())
 

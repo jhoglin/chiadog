@@ -19,7 +19,7 @@ def calculate_skipped_signage_points(
     valid = True
     diff_id = curr_id - prev_id
     diff_id_roll = (roll_over_point - prev_id) + curr_id
-    diff_seconds = (curr_ts - prev_ts).seconds
+    diff_seconds = (curr_ts - prev_ts).total_seconds()
 
     one_roll_duration = roll_over_point * expected_diff_seconds
 

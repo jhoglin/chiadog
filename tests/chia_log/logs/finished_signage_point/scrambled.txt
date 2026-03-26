@@ -1,54 +1,48 @@
-05:26:43.135 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 43/64:
-05:26:52.594 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 44/64:
-05:27:00.336 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 45/64:
-05:27:08.422 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 46/64:
-05:27:17.164 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64:
-05:27:25.020 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64:
-05:27:34.136 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64:
-05:27:36.719 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64:
-05:27:37.130 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64:
-05:27:39.096 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 19/64:
-05:27:39.159 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64:
-05:27:39.461 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 27/64:
-05:27:42.233 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64:
-05:27:42.495 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64:
-05:27:42.594 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 8/64:
-05:27:42.652 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 19/64:
-05:27:42.702 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 27/64:
-05:27:42.906 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64:
-05:27:43.638 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 50/64:
-05:27:44.844 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 45/64:
-05:27:47.003 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64:
-05:27:47.082 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64:
-05:27:47.162 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64:
-05:27:47.217 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 8/64:
-05:27:47.261 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 27/64:
-05:27:47.312 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 19/64:
-05:27:47.355 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 45/64:
-05:27:49.664 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 50/64:
-05:27:57.732 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 51/64:
-05:28:01.534 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 24/64:
-05:28:08.206 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 52/64:
-05:28:14.926 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 36/64:
-05:28:15.857 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 53/64:
-05:28:23.546 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 31/64:
-05:28:23.864 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 54/64:
-05:28:32.550 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 55/64:
-05:28:40.851 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 56/64:
-05:28:51.013 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 57/64:
-05:29:00.639 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 58/64:
-05:29:11.167 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 59/64:
-05:29:16.138 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 25/64:
-05:29:20.423 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 60/64:
-05:29:24.322 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 21/64:
-05:29:29.170 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 61/64:
-05:29:40.039 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 62/64:
-05:29:48.240 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 63/64:
-05:29:52.429 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 14/64:
-05:29:58.413 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 17/64:
-05:29:58.775 full_node chia.full_node.full_node: INFO     ⏲️  Finished sub slot, SP 64/64,
-05:30:10.434 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 1/64:
-05:30:18.039 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 2/64:
-05:30:26.477 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 3/64:
-05:30:34.823 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 4/64:
-05:30:43.959 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 5/64:
+2026-03-26T21:02:31.554 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 43/64: CC: 4bc866a7f3a7df751bab5c59a99a4a8a83f734d7385810cb46c585ae4bea7f5c RC: 798f9c2a9334d419b5f87b6ad82fdf90b780fe0ad506b8a7a6a7e3ed640d5fdc 
+2026-03-26T21:02:40.594 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 44/64: CC: 66cc5cbf9c8eae06b7beec0cc8372e9084ccd15bf9ce53e7eb9588cc123668c4 RC: 015d87e02c2b19187825777547238516bd54ff337aada4bfeda91187c41dea97 
+2026-03-26T21:02:49.730 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 45/64: CC: f002a1e669d02b53a31c67f12b7d9350d6e2d384f070c1303b75076f4a75b0fb RC: acb353b1e8ac69717409af0627403f7437b4924f63d7018fce476c60d60eb13d 
+2026-03-26T21:02:58.550 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 46/64: CC: ac2ab9788d5a7be88d4c1d448b159ad9e6ed9c673e89e34f8893bdc7efc333c2 RC: e2c01bb189c81323ba1d69efeab7490f8932af41ae4f51df19a36ce28d29ff68 
+2026-03-26T21:03:07.526 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64: CC: c5498c9d7aaf2d99a77314abdef6c5c7495483f2caf2cb6e5f59afcf311235a9 RC: 92587ceb6dde28470cd1a9e271a6f761ec488e93a43fefc8f1b1eae3a565f460 
+2026-03-26T21:03:16.492 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:25.318 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64: CC: 2ea1a2a2a0ce0563fe9f05255155875387dbfe82c609aeab69c88653c58d16d0 RC: 5907aacec3b6221efa2e8c30eea6fecb80dac510c3fbfa697ded5124ee766354 
+2026-03-26T21:03:25.518 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:26.018 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:26.418 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 19/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:26.518 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:26.618 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 27/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:28.618 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:28.718 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:28.818 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 8/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:28.918 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 19/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:29.018 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 27/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:29.118 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:30.018 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 50/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:31.018 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 45/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:33.418 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 47/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:33.518 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 48/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:33.618 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 49/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:33.718 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 8/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:33.818 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 27/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:33.918 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 19/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:34.718 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 45/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:36.618 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 50/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:43.418 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 51/64: CC: 3999fcf5acfae9cc1d99ea15779a58e4c2523f4588a66db0f87db1885d649553 RC: f34a7c6d082aba1804a6e1e857ad4cd22c9038e29fcbb64562a9ac91de8b6a1f 
+2026-03-26T21:03:43.656 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 51/64: CC: 81ecadd1a933b810e4a547dcb3851a238e429759462e497a9df1395b340df7e6 RC: ec5ccb1cbdbc541a32c41a941d42980e5b3fb140ba1ddbf5bd20c70fabddde97 
+2026-03-26T21:03:53.208 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 52/64: CC: fc889099b91c92ed807805391123cf06421e70ab9afdff304dd92491af564117 RC: ffa76b8e664ede69dd01e57715b1d40fc9226036c689b1942a79a81da3bccf4c 
+2026-03-26T21:04:02.257 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 53/64: CC: dafd5e7dff832f6984d31624b05280b973d7e6211d4e8ad12c1f755a85d1c066 RC: cf4eceb0ca81f2868bbd3db9cbe1e4a595670241d4062361428c548adb7aa4d0 
+2026-03-26T21:04:11.215 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 54/64: CC: a074184d851f8267cc761e17d3f9f6a78d39bdd58036f1c22f428765e02ed705 RC: 397b725d3403d4a188c3bddafd6b94df8c10557b14f3626716f2ef4fb09f6710 
+2026-03-26T21:04:20.905 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 55/64: CC: b58cb198d83a77f1e0717c578ff3a7b39331bdeffb48e9c44fd118ccf39aa46c RC: 18a95b28b7841bfc795df1a6b705e5a2dd68a9db5a45d9ae85d52a721fbdd70d 
+2026-03-26T21:04:29.946 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 56/64: CC: a1fa8dd1e0c2080809cd56d4f23f07ca33bd4d0f3b4c34abf0e91c91905b18f1 RC: 5ad5f772a3d9b496b99734ea396ae4a7c5b64597522b752c42a816791f17c1f0 
+2026-03-26T21:04:39.059 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 57/64: CC: b5d7f85374ca9dfd5e36409245e3d35b314bb81cdf93861696f5e0f94a8957cd RC: d95384a748dc2b73f55e0afc1344842f5e12ac17b8cc9d79aabe2b85abfb64a2 
+2026-03-26T21:04:48.071 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 58/64: CC: f88ff396822f660d8f80fb8752acb1fab1a33c7bfe494f35907d6e0b5589845a RC: d6d0cf01d02f3c18e64f91c610a32c0f1440a8f910b4e9df04000b7538fa9756 
+2026-03-26T21:04:57.524 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 59/64: CC: 721d9cea4cd04053ab3651fc53d20e92b456d060dd4e016058e53e9c2d567c05 RC: e09d23404f3cd4e089ca15ec712492986be24841364aacbb1bafe8a10ed11d52 
+2026-03-26T21:05:06.468 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 60/64: CC: ad9c2f19a2d87c7cac7a547672ffcae23ec077d1025b84f1f819b165b0446810 RC: 48f813644c0e3b46001b5cac88f4df5c89ba32c263061fa26d2cbaab447b3013 
+2026-03-26T21:05:15.517 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 61/64: CC: 679746fd4c0fe2d6d597671ee086b78e589e0a31c86931f9f00f3fc4b83f1dea RC: d758892b0da3560abfd7274dee6ea1d65c55e5581c3b221b5065f4285f42f2cb 
+2026-03-26T21:05:24.559 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 62/64: CC: d2f8c80c9bf9650da41b64477b6ddfaba7633027ffa4a1cba5aaaef4abcefe54 RC: 7b2b1cc5e59609beee149f49e011a7241ac55201e3e724d36a3b3253d5dc152b 
+2026-03-26T21:05:33.985 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 63/64: CC: 043acd9b158ab34e103c5d68916dd345e8b8d9ed2c994c7340f9ecf1cbaf5015 RC: 6da78ffca17e494fc5886f6d308714fbed1fe5b8cddeceebcc3137f42645ae1c 
+2026-03-26T21:05:43.070 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished sub slot, SP 64/64, c21ed65abe9b30e8f9b9339d321f87b141a6f453f2682e2a53ccd219625a91d0, number of sub-slots: 2, RC hash: 3d9459ce259b57535bc0e61e8f71f851f59a9c8f85eb387f147a2f08c18434a0, Deficit 16
+2026-03-26T21:05:53.200 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 1/64: CC: b2389a04de4290e7757971090dd1abc7ad86fb0256918927906023f13ad75853 RC: 4a4e8684a3955f6094e99ce32623fb343a5f98b7d0d7170bb6b5563a27c31d05 
+2026-03-26T21:06:02.337 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 2/64: CC: db844dc21d88786bf0532551ef79ce5d3ba574cae0313bf9606338326e813b3a RC: a10bcf93bb0ed6d967b7552057504b78871f6055e385a673a8cd1255d1bd4196 
+2026-03-26T21:06:11.299 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 3/64: CC: ab84ab60c1a333e93d5c0a4ae283bc18010e39455e1cbe4f7ea5309a809aefc3 RC: 49c9671d273bb705f0478d115d3edfd2f474cd9c75c795635d95dfb31ac61be7 
+2026-03-26T21:06:20.516 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 4/64: CC: 9ed5e92991358eba4ebd1d763e7fae25840228386493a3b585feb845c6dbec87 RC: b53415f479a9d34561ab51462d5d4eaee960fbdaf8c0ee61668376e5d9d0c818 
+2026-03-26T21:06:29.439 2.6.0 full_node chia.full_node.full_node: INFO     ⏲️  Finished signage point 5/64: CC: 660bf0428b62201633743f8a8cbfa1845e1a98a1981c0f8c74da52ccb330587b RC: 0c4ba9f8a2b8c713324b1a4e24328fd29fc2dbef9e387aaa830466b664e633be 
