@@ -10,6 +10,18 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 Starting from version `0.7.5`, **this CHANGELOG is deprecated** in favor of the [Releases
 Page](https://github.com/martomi/chiadog/releases).
 
+## [Unreleased]
+
+### Changed
+- Dropped support for Chia log formats prior to 2.6.0. The harvester activity parser now only
+  supports the Chia 2.6.0+ log format (`challenge_hash:` prefix, V1/V2 proof counts).
+
+### Fixed
+- Fixed a bug in `calculate_skipped_signage_points` where a negative `timedelta` (caused by
+  a duplicate signage point arriving with an earlier timestamp) would incorrectly wrap around
+  due to use of `.seconds` instead of `.total_seconds()`, producing a phantom "skipped N signage
+  points" alert.
+
 ## [0.7.4] - 2022-11-02
 
 ### Fixed

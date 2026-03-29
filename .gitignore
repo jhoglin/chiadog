@@ -4,6 +4,7 @@ config.*.yaml
 
 # pygtail offset
 debug.log.offset
+debug.log
 
 # dev files
 .idea
@@ -13,7 +14,7 @@ venv*
 .coverage
 coverage.xml
 .python-version
-
+.venv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
