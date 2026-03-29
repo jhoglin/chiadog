@@ -7,7 +7,6 @@ from ...parsers.harvester_activity_parser import HarvesterActivityMessage
 from ...parsers.wallet_added_coin_parser import WalletAddedCoinMessage
 from ...parsers.partial_parser import PartialMessage
 from ...parsers.block_parser import BlockMessage
-from ...parsers.blockchain_db_parser import BlockchainDbMessage
 
 
 class FinishedSignageConsumer(ABC):
@@ -37,12 +36,6 @@ class BlockConsumer(ABC):
 class WalletAddedCoinConsumer(ABC):
     @abstractmethod
     def consume(self, obj: WalletAddedCoinMessage):
-        pass
-
-
-class BlockchainDbConsumer(ABC):
-    @abstractmethod
-    def consume(self, obj: BlockchainDbMessage):
         pass
 
 

@@ -2,7 +2,7 @@
 import logging
 import re
 from datetime import datetime, timedelta
-from typing import cast, List, Union
+from typing import cast, List, Union, Callable
 from threading import Thread
 from time import sleep
 
@@ -16,7 +16,6 @@ from . import (
     BlockConsumer,
     WalletAddedCoinConsumer,
     FinishedSignageConsumer,
-    BlockchainDbConsumer,
 )
 from .stat_accumulators.eligible_plots_stats import EligiblePlotsStats
 from .stat_accumulators.wallet_added_coin_stats import WalletAddedCoinStats
@@ -32,7 +31,6 @@ from src.chia_log.parsers.harvester_activity_parser import HarvesterActivityMess
 from src.chia_log.parsers.finished_signage_point_parser import FinishedSignagePointMessage
 from src.chia_log.parsers.partial_parser import PartialMessage
 from src.chia_log.parsers.block_parser import BlockMessage
-from src.chia_log.parsers.blockchain_db_parser import BlockchainDbMessage
 from src.notifier.notify_manager import NotifyManager
 from src.notifier import Event, EventType, EventPriority, EventService
 
@@ -53,6 +51,7 @@ class StatsManager:
 
         logging.info("Enabled stats for daily notifications")
         self._notify_manager = notify_manager
+        self._daily_checkers: List[Callable[[], List[Event]]] = []
         self._stat_accumulators = [
             WalletAddedCoinStats(),
             FoundProofStats(),
@@ -120,13 +119,23 @@ class StatsManager:
                 for obj in objects:
                     stat_acc.consume(obj)
 
-    def consume_blockchain_db_messages(self, objects: List[BlockchainDbMessage]):
+    def set_blockchain_db_path(self, db_path: str):
+        """Forward the blockchain DB path to DiskSpaceStats so it appears in the daily summary."""
         if not self._enable:
             return
         for stat_acc in self._stat_accumulators:
-            if isinstance(stat_acc, BlockchainDbConsumer):
-                for obj in objects:
-                    stat_acc.consume(obj)
+            if isinstance(stat_acc, DiskSpaceStats):
+                stat_acc.set_db_path(db_path)
+
+    def register_daily_checker(self, checker_fn: Callable[[], List[Event]]) -> None:
+        """Register a callable that is invoked during every daily summary cycle.
+
+        The callable receives no arguments and returns a (possibly empty) list of Events.
+        These events are dispatched immediately alongside the daily summary.
+        """
+        if not self._enable:
+            return
+        self._daily_checkers.append(checker_fn)
 
     def _send_daily_notification(self):
         summary = f"Hello farmer! 👋 Here's what happened in the last {self._frequency_hours} hours:\n"
@@ -137,6 +146,12 @@ class StatsManager:
         self._notify_manager.process_events(
             [Event(type=EventType.DAILY_STATS, priority=EventPriority.LOW, service=EventService.DAILY, message=summary)]
         )
+
+        # Run registered checkers (e.g. low disk space) and dispatch any resulting events
+        for checker_fn in self._daily_checkers:
+            events = checker_fn()
+            if events:
+                self._notify_manager.process_events(events)
 
     def _run_loop(self):
         while self._is_running:

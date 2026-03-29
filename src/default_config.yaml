@@ -53,6 +53,10 @@ handlers:
   blockchain_db_handler:
     # Alert when free disk space on the blockchain DB filesystem falls below this percentage.
     low_disk_threshold_pct: 10
+    # Optional: set the blockchain database path explicitly so chiadog can check disk space
+    # at startup (before the 'using blockchain database' log line is seen from Chia).
+    # If left empty, the path is discovered automatically from the log stream.
+    db_path:
 
 
 # No notifier or notifier feature is enabled by default

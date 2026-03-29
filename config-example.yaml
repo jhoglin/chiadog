@@ -68,6 +68,11 @@ handlers:
     # The DB path is discovered automatically from the Chia full node startup log.
     # Set to 0 to disable the alert. Default: 10
     low_disk_threshold_pct: 10
+    # Optional: set the blockchain database path explicitly so chiadog can check disk space
+    # at startup, before Chia emits its 'using blockchain database' log line.
+    # Useful when chiadog starts against an already-running Chia node.
+    # Example: db_path: /mnt/disk02-10/chia_db/blockchain_v2_mainnet.sqlite
+    db_path:
 
 
 # We support a lot of notifiers, please check the README for more
