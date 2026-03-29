@@ -32,6 +32,7 @@ class BlockchainDbHandler(LogHandlerInterface):
     def __init__(self, config=None):
         super().__init__(config)
         self._pending_events: List[Event] = []
+        self._checker: Optional[LowDiskSpace] = None
         self._db_path_forwarded = False
 
         try:
@@ -40,7 +41,9 @@ class BlockchainDbHandler(LogHandlerInterface):
             self._db_path = None
 
         try:
-            threshold_pct = float(config["low_disk_threshold_pct"].get()) if config else self._DEFAULT_LOW_DISK_THRESHOLD_PCT
+            threshold_pct = (
+                float(config["low_disk_threshold_pct"].get()) if config else self._DEFAULT_LOW_DISK_THRESHOLD_PCT
+            )
         except Exception:
             threshold_pct = self._DEFAULT_LOW_DISK_THRESHOLD_PCT
 
@@ -53,11 +56,12 @@ class BlockchainDbHandler(LogHandlerInterface):
 
     def _run_startup_check(self) -> None:
         """Log INFO about current disk space and queue a warning event if space is low."""
+        assert self._db_path is not None
         try:
             mount = DiskSpaceStats._get_mount_point(self._db_path)
             usage = shutil.disk_usage(mount)
-            free_gb = usage.free / (1024 ** 3)
-            total_gb = usage.total / (1024 ** 3)
+            free_gb = usage.free / (1024**3)
+            total_gb = usage.total / (1024**3)
             pct_free = (usage.free / usage.total) * 100
             logging.info(
                 f"Blockchain DB disk space at startup: "
@@ -68,6 +72,7 @@ class BlockchainDbHandler(LogHandlerInterface):
             logging.warning(f"BlockchainDbHandler: could not read disk usage for '{self._db_path}': {e}")
             return
 
+        assert self._checker is not None
         event = self._checker.check()
         if event:
             self._pending_events.append(event)
@@ -83,8 +88,9 @@ class BlockchainDbHandler(LogHandlerInterface):
         # Register with StatsManager once: daily summary line + periodic low-disk check
         if not self._db_path_forwarded and stats_manager is not None:
             stats_manager.set_blockchain_db_path(self._db_path)
-            if self._checker is not None:
-                stats_manager.register_daily_checker(lambda: [e for e in [self._checker.check()] if e])
+            checker = self._checker
+            if checker is not None:
+                stats_manager.register_daily_checker(lambda: [e for e in [checker.check()] if e])
             self._db_path_forwarded = True
 
         return events

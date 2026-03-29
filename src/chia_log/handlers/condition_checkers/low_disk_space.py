@@ -33,8 +33,8 @@ class LowDiskSpace:
 
         if pct_free < self._threshold_pct:
             if not self._alerted:
-                free_gb = usage.free / (1024 ** 3)
-                total_gb = usage.total / (1024 ** 3)
+                free_gb = usage.free / (1024**3)
+                total_gb = usage.total / (1024**3)
                 message = (
                     f"Low disk space on blockchain DB filesystem ({mount})! "
                     f"Only {free_gb:.1f} GB free of {total_gb:.1f} GB "

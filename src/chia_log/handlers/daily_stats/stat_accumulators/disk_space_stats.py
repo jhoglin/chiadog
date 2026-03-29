@@ -39,8 +39,8 @@ class DiskSpaceStats(StatAccumulator):
         try:
             mount = self._get_mount_point(self._db_path)
             usage = shutil.disk_usage(mount)
-            free_gb = usage.free / (1024 ** 3)
-            total_gb = usage.total / (1024 ** 3)
+            free_gb = usage.free / (1024**3)
+            total_gb = usage.total / (1024**3)
             pct_free = (usage.free / usage.total) * 100
             return f"DB disk 💾: {free_gb:.1f} GB free of {total_gb:.1f} GB ({pct_free:.1f}% free) on {mount}"
         except OSError as e:

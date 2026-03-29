@@ -14,8 +14,8 @@ class _Usage:
         self.free = free
 
 
-_USAGE_OK = _Usage(total=1_000_000_000_000, free=500_000_000_000)   # 50% free — well above 10%
-_USAGE_LOW = _Usage(total=1_000_000_000_000, free=50_000_000_000)    # 5% free — below 10%
+_USAGE_OK = _Usage(total=1_000_000_000_000, free=500_000_000_000)  # 50% free — well above 10%
+_USAGE_LOW = _Usage(total=1_000_000_000_000, free=50_000_000_000)  # 5% free — below 10%
 
 _DB_PATH = "/mnt/chia_db/blockchain_v2_mainnet.sqlite"
 

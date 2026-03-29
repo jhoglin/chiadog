@@ -17,9 +17,9 @@ class _Usage:
 _DB_PATH = "/mnt/chia_db/blockchain_v2_mainnet.sqlite"
 _THRESHOLD = 10.0
 
-_USAGE_OK = _Usage(total=1_000_000_000_000, free=500_000_000_000)   # 50% free
-_USAGE_LOW = _Usage(total=1_000_000_000_000, free=50_000_000_000)    # 5% free
-_USAGE_EXACT = _Usage(total=1_000_000_000_000, free=100_000_000_000) # exactly 10% free
+_USAGE_OK = _Usage(total=1_000_000_000_000, free=500_000_000_000)  # 50% free
+_USAGE_LOW = _Usage(total=1_000_000_000_000, free=50_000_000_000)  # 5% free
+_USAGE_EXACT = _Usage(total=1_000_000_000_000, free=100_000_000_000)  # exactly 10% free
 
 
 class TestLowDiskSpace(unittest.TestCase):
