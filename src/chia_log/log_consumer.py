@@ -26,7 +26,6 @@ from paramiko.channel import ChannelStdinFile, ChannelStderrFile, ChannelFile
 from pygtail import Pygtail  # type: ignore
 from retry import retry
 
-
 # Define the minimum valid 'chia_logs' config sections as needed by the log consumers
 file_log_consumer_template = {
     "enable": bool,
@@ -220,7 +219,7 @@ def create_log_consumer_from_config(config: ConfigView) -> LogConsumer:
         if config[consumer]["enable"].get(bool):
             if enabled_consumer:
                 logging.error("Detected multiple enabled consumers. This is unsupported configuration!")
-                return None
+                return None  # type: ignore[return-value]
             enabled_consumer = consumer
     if enabled_consumer is None:
         logging.critical("Couldn't find enabled log consumer in config.yaml")

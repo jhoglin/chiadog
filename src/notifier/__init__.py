@@ -1,6 +1,4 @@
-"""Notifier package responsible for user notification
-
-"""
+"""Notifier package responsible for user notification"""
 
 # std
 from abc import ABC, abstractmethod
