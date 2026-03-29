@@ -12,6 +12,14 @@ Page](https://github.com/martomi/chiadog/releases).
 
 ## [Unreleased]
 
+### Added
+- Daily summary now includes free disk space on the filesystem where the blockchain database
+  resides (e.g. `DB disk 💾: 190.3 GB free of 931.5 GB (20.4% free) on /mnt/disk02-10`).
+  The database path is discovered automatically from the Chia full node startup log.
+- New configurable alert (`blockchain_db_handler.low_disk_threshold_pct`, default `10`) that
+  fires a high-priority notification when free space on the blockchain DB filesystem drops
+  below the configured percentage. The alert resets automatically if space recovers.
+
 ### Changed
 - Dropped support for Chia log formats prior to 2.6.0. The harvester activity parser now only
   supports the Chia 2.6.0+ log format (`challenge_hash:` prefix, V1/V2 proof counts).

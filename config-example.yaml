@@ -63,6 +63,11 @@ handlers:
     # you may need to experiment to find what's normal for you.
     # If the delay is consistently over this for the WALLET notify_threshold_seconds value, the keep-alive triggers.
     max_drift_seconds: 300
+  blockchain_db_handler:
+    # Alert when free disk space on the blockchain DB filesystem falls below this percentage.
+    # The DB path is discovered automatically from the Chia full node startup log.
+    # Set to 0 to disable the alert. Default: 10
+    low_disk_threshold_pct: 10
 
 
 # We support a lot of notifiers, please check the README for more

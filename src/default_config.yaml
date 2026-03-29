@@ -50,6 +50,9 @@ handlers:
     # Observed usual drift is about a minute on a beefy node.
     # A conservative value is used however to avoid flooding low powered users by default.
     max_drift_seconds: 300
+  blockchain_db_handler:
+    # Alert when free disk space on the blockchain DB filesystem falls below this percentage.
+    low_disk_threshold_pct: 10
 
 
 # No notifier or notifier feature is enabled by default

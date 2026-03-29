@@ -8,6 +8,7 @@ from ...parsers.finished_signage_point_parser import FinishedSignagePointMessage
 from ...parsers.harvester_activity_parser import HarvesterActivityMessage
 from ...parsers.partial_parser import PartialMessage
 from ...parsers.block_parser import BlockMessage
+from ...parsers.blockchain_db_parser import BlockchainDbMessage
 
 
 class FinishedSignageConditionChecker(ABC):
@@ -31,4 +32,10 @@ class PartialConditionChecker(ABC):
 class BlockConditionChecker(ABC):
     @abstractmethod
     def check(self, obj: BlockMessage) -> Optional[Event]:
+        pass
+
+
+class BlockchainDbConditionChecker(ABC):
+    @abstractmethod
+    def check(self, obj: BlockchainDbMessage) -> Optional[Event]:
         pass
